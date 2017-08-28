@@ -1,0 +1,102 @@
+body {
+    background: lightblue;
+}
+
+/*******************************************
+
+Navigation Styling 
+
+*********************************************/
+
+nav {
+    text-align: center
+    
+}
+
+nav li {
+    display: inline-block;
+    font-family: Ariel,sans-serif;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+ 
+a: hover {
+    background: grey;
+}
+        
+/************************************************
+
+Heading and paragraph styling elements
+
+************************************************/       
+    
+
+h1 {
+    font-family: Ariel,sans-serif;
+    text-align: center;
+    color: white; 
+    text-shadow: -2px 3px black;
+    
+}
+
+h2 {
+    font-family: Ariel,sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Ariel,sans-serif;  
+}
+
+/*************************************************
+
+styling for main elements anbd blocks and stuff
+
+*************************************************/
+
+
+.paragraph {
+    float: right;
+    width: 40%;
+    height: auto; 
+    text-align: left;
+    padding-right: 100px;
+}
+
+.image {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-left: 100px; 
+    border: solid grey;
+    border-width: 10px 10px;
+    border-radius: 10px 40px;
+  
+    
+}
+
+
+.quizcontent {
+    text-align: center;
+    color: mediumvioletred;
+}
+
+
+/*************************************************
+
+Footer
+
+*************************************************/
+
+footer {
+   clear: both;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 50px;
+     font-family: Ariel,sans-serif;
+    
+    }
